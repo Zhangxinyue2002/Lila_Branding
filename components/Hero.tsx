@@ -62,9 +62,9 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-20 relative h-[500px] md:h-[700px] flex items-center justify-center"
+          className="mt-20 relative h-[400px] md:h-[550px] flex items-center justify-center"
           style={{
-            transform: `translateY(${scrollY * 0.35}px)`
+            transform: `translateY(${scrollY * 0.15}px)`
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-mooon-primary/20 to-mooon-secondary/20 blur-3xl rounded-full -z-50"></div>
