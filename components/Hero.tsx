@@ -91,7 +91,7 @@ export default function Hero() {
 
           {/* Main Character Image - with floating animation */}
           <motion.div 
-            className="relative w-72 h-72 md:w-[500px] md:h-[500px]"
+            className="relative w-56 h-56 md:w-[380px] md:h-[380px]"
             animate={{
               y: [0, -20, 0],
             }}
