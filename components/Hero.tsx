@@ -62,7 +62,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-20 relative h-[300px] md:h-[400px] flex items-center justify-center"
+          className="mt-20 relative h-[350px] md:h-[475px] flex items-center justify-center"
           style={{
             transform: `translateY(${scrollY * 0.15}px)`
           }}
